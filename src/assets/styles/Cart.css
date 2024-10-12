@@ -1,0 +1,156 @@
+/* Basic styles for the cart component */
+.cart-container {
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.cart-header {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.empty-cart-message {
+  font-size: 18px;
+  color: #888;
+}
+
+/* Card styling */
+.cart-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cart-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cart-item-image-container {
+  position: relative;
+  height: 200px;
+}
+
+.cart-item-image {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.cart-card-body {
+  padding: 15px;
+}
+
+.cart-card-title {
+  font-size: 1.5rem;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.cart-card-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.aaaaaa {
+  padding: 5px;
+  border-radius: 12px;
+  background-color: rgb(51, 51, 51);
+  border: 1px solid rgb(51, 51, 51);
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  margin-right: 10px;
+}
+.btn-secondary{
+  align-items: end;
+}
+.btn-primary1 {
+  background-color: red;
+  border: none;
+  color: white;
+}
+
+.btn-primary1:hover {
+  background-color: #0056b3;
+}
+
+/* Cart summary styling */
+.cart-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.total-amount {
+  font-size: 20px;
+  color: #111;
+}
+
+/* Checkout form styling */
+.checkout-form {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.checkout-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.checkout-form .form-control {
+  border-radius: 5px;
+}
+
+.checkout-form .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+input[type="email1"]{
+  background-color: white;
+}
+.checkout-form .btn-primary1 {
+  background-color: #575656;
+  border: none;
+  color: white;
+  width: 100%;
+}
+
+.checkout-form .btn-primary1:hover {
+  background-color: #a1adb9;
+}
+
+
+.card-card.dark {
+  background-color: #444;
+  color: #fff;
+}
+
+.card-card-body.dark {
+  border: 1px solid #555;
+}
+
+.btn-primary1.dark {
+  background-color: #0056b3;
+}
+
+.btn-danger.dark {
+  background-color: #c82333;
+}

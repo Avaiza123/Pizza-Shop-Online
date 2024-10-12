@@ -1,0 +1,110 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+
+.kka{
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/src/assets/images/pizzabg.webp") no-repeat center center;
+  background-size: cover;
+  margin: 0;
+  color: white;
+}
+
+input[type="email"],
+input[type="password"] {
+  border-radius: 8px;
+  border: 1px solid white;
+  color: rgb(0, 0, 0) !important;
+  background: transparent;
+}
+
+.auth-container {
+  justify-content: center;
+  max-width: 800px;
+  max-height: 800px;
+  margin: 0 auto;
+  padding: 60px;
+  text-align: center;
+}
+
+.heading {
+  color: rgb(255, 255, 255);
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.auth-form {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  width: 500px;
+  height: 430px;
+  position: relative; /* Changed from absolute to relative for centering */
+}
+
+.ant-input-outlined {
+  margin: 10px 0;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  color: #000;
+}
+
+.auth-form .ant-form-item {
+  margin-bottom: 15px;
+  align-items: center;
+  color: white;
+}
+
+.auth-form .ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.spp2 {
+  padding-left: 120px;
+  text-align: center;
+}
+
+.auth-form .ant-btn {
+  background-color: #999ca1;
+  border-color: #999ca1;
+  width: 100%;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+.ant-btn:hover {
+  background-color: rgb(85, 82, 82);
+}
+
+.google-sign-in-btn {
+  justify-content: center;
+  width: 70%;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.google-sign-in-btn:hover {
+  background-color: #999ca1;
+}
+
+.google-sign-in-btn i {
+  margin-right: 8px;
+}
